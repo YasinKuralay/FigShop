@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import renderer from 'react-test-renderer';
-import App from './App';
+import Header from './Header.js';
 
-it('Mounts and unmounts the App component without crashing', () => {
+it('Mounts and unmounts the Header component without crashing', () => {
     const div = document.createElement('div');
-    ReactDOM.render(<App />, div);
+    ReactDOM.render(<Header />, div);
     ReactDOM.unmountComponentAtNode(div);
 });

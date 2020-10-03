@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import renderer from 'react-test-renderer';
-import App from './App';
+import Footer from './Footer.js';
 
-it('Mounts and unmounts the App component without crashing', () => {
+it('Mounts and unmounts the Footer component without crashing', () => {
     const div = document.createElement('div');
-    ReactDOM.render(<App />, div);
+    ReactDOM.render(<Footer />, div);
     ReactDOM.unmountComponentAtNode(div);
 });
