@@ -17,7 +17,7 @@ export default function ProductScreen({ match }) {
         };
 
         fetchProducts();
-    }, []);
+    }, [match]);
 
     return (
         <>
