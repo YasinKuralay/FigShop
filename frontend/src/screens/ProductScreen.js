@@ -35,7 +35,7 @@ export default function ProductScreen({ match }) {
                         </ListGroup.Item>
                         <ListGroup.Item>
                             <Rating
-                                value={product.rating}
+                                value={product.averageRating}
                                 text={`${product.numReviews} reviews`}
                             ></Rating>
                         </ListGroup.Item>
