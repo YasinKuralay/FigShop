@@ -1,4 +1,9 @@
 import axios from 'axios';
+import {
+    PRODUCT_LIST_REQUEST,
+    PRODUCT_LIST_SUCCESS,
+    PRODUCT_LIST_FAIL,
+} from '../constants/productConstants';
 
 //think of these as action creators, and the rest of the actions as just actions
 export const listProducts = () => async (dispatch) => {
